@@ -61,11 +61,11 @@
                 if (this.password === this.password_confirmation && this.password.length > 0)
                 {
                     // let url = "http://localhost:3000/register";
-                    let url = "http://localhost:5000/register";
-                    // let url = " https://agile-meadow-09841.herokuapp.com/register";
+                    // let url = "http://localhost:5000/register";
+                    let url = "https://vue-node-mysql-heroku-web.herokuapp.com/register";
                     // if(this.is_admin != null && this.is_admin === 1) url = "http://localhost:3000/register-admin";
-                    if(this.is_admin != null && this.is_admin === 1) url = "http://localhost:5000/register-admin";
-                    // if(this.is_admin != null && this.is_admin === 1) url = " https://agile-meadow-09841.herokuapp.com/register-admin";
+                    // if(this.is_admin != null && this.is_admin === 1) url = "http://localhost:5000/register-admin";
+                    if(this.is_admin != null && this.is_admin === 1) url = "https://vue-node-mysql-heroku-web.herokuapp.com/register-admin";
                     this.$http.post(url, {
                         name: this.name,
                         email: this.email,
