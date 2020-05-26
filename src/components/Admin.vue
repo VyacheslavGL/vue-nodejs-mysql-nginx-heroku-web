@@ -2,6 +2,7 @@
     <div class="hello">
         <h1>Welcome to administrator page - Admin</h1>
         <h2>{{msg}}</h2>
+        <img src="public/w1200.jpg" alt="Picture"/>
     </div>
 </template>
 

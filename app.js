@@ -55,7 +55,7 @@ db.connect((err) =>{
         throw err;
         // console.log('MySQL in not connected....');
     }
-    console.log('MySQL Connected...');
+    console.log('MySQL Connected....');
 });
 
 // CORS middleware   - добавляем при работе на локальной машине, на хостинге убираем
