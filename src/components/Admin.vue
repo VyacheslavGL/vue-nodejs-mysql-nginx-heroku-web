@@ -17,12 +17,12 @@
         },
         computed:{
             width(){
-                switch ('xs') {
-                    case 'xs':return {width:'335px', margin: '0 auto'};
-                    case 'sm':return {width:'400px', margin: '0 auto'};
-                    case 'md':return {width:'960px', margin: '0 auto'};
-                    case 'lg':return {width:'1264px', margin: '0 auto'};
-                    default:return {width:'768px', margin: '0 auto'};
+                switch (screen.width) {
+                    case 375  :return {width:'358px', height: 'auto', margin: '0 auto'};
+                    case 414  :return {width:'938px', height: 'auto', margin: '0 auto'};
+                    case 1024 :return {width:'768px', height: 'auto', margin: '0 auto'};
+                    case 1920 :return {width:'768px', height: 'auto', margin: '0 auto'};
+                    default   :return {width:'768px', height: 'auto', margin: '0 auto'};
                     // case 'sm':return '400px';
                     // case 'md':return '960px';
                     // case 'lg':return '1264px';
@@ -34,8 +34,8 @@
         created() {
             let width = document.body.clientWidth, // ширина
             height = document.body.clientHeight; // высота
-            console.log('Ширина экрана screen.width:', screen.width);
-            console.log('Ширина экрана width :', width);
+            console.log('Ширина экрана screen.width:', screen.width); //375
+            console.log('Ширина экрана width :', width); //359
             console.log('Высота экрана width :', height);
         }
     }
