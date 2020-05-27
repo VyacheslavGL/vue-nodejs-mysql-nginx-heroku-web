@@ -5,7 +5,7 @@
 5. git add .
 6. git commit -am "zxcccc"
 7. git push heroku master
-8. Если не работает то heroku restart
+8. Если не работает приложение и показывает ошибку 500 то heroku restart
 https://stackoverflow.com/questions/14612695/how-to-restart-a-rails-server-on-heroku
 
 ================
