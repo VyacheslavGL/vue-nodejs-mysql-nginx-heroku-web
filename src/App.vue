@@ -13,7 +13,7 @@
       <v-btn class="ma-2" color="#2196F3" v-if="!jwt" to="/register">Register</v-btn>
       <v-btn class="ma-2" color="#2196F3" v-if="jwt" to="/dashboard">Dashboard</v-btn>
       <v-btn class="ma-2" color="#2196F3" v-if="jwt && auth === 1" to="/admin">Admin</v-btn>
-      <v-btn class="ma-2" v-if="jwt" color="#2196F3" @click="logout">Logout</v-btn>
+      <v-btn class="ma-2" v-if="jwt" dark color="#2196F3" @click="logout">Logout</v-btn>
 
       <!--<router-link to="/">Home</router-link>
       <router-link to="/login"> | Login  </router-link>
