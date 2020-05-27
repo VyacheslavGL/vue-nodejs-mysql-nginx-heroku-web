@@ -19,10 +19,10 @@
             width(){
                 switch (screen.width) {
                     case 375  :return {width:'358px', height: 'auto', margin: '0 auto'};
-                    case 414  :return {width:'938px', height: 'auto', margin: '0 auto'};
+                    case 414  :return {width:'397px', height: 'auto', margin: '0 auto'};
                     case 1024 :return {width:'768px', height: 'auto', margin: '0 auto'};
                     case 1920 :return {width:'768px', height: 'auto', margin: '0 auto'};
-                    default   :return {width:'768px', height: 'auto', margin: '0 auto'};
+                    default   :return {width: document.body.clientWidth+'px', height: 'auto', margin: '0 auto'};
                     // case 'sm':return '400px';
                     // case 'md':return '960px';
                     // case 'lg':return '1264px';
