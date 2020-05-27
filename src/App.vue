@@ -8,11 +8,11 @@
 <!--      <router-link v-if="jwt && auth === 1" to="/admin"> Admin  | </router-link>-->
 <!--      <button v-if="jwt" @click="logout">logout</button>-->
 <!--      <v-spacer></v-spacer>-->
-      <v-btn dark color="#2196F3" style="margin: 0 2px" to="/">Home</v-btn>
-      <v-btn dark color="#424242" style="margin: 0 2px" v-if="jwt == null" to="/login">Login</v-btn>
-      <v-btn dark color="#2196F3" style="margin: 0 2px" v-if="!jwt" to="/register">Register</v-btn>
-      <v-btn dark color="#2196F3" style="margin: 0 2px" v-if="jwt" to="/dashboard">Dashboard</v-btn>
-      <v-btn dark color="#2196F3" style="margin: 0 2px" v-if="jwt && auth === 1" to="/admin">Admin</v-btn>
+      <v-btn color="#2196F3" style="margin: 0 2px; color: white" to="/">Home</v-btn>
+      <v-btn color="#424242" style="margin: 0 2px; color: white" v-if="jwt == null" to="/login">Login</v-btn>
+      <v-btn color="#2196F3" style="margin: 0 2px; color: white" v-if="!jwt" to="/register">Register</v-btn>
+      <v-btn color="#2196F3" style="margin: 0 2px; color: white" v-if="jwt" to="/dashboard">Dashboard</v-btn>
+      <v-btn color="#2196F3" style="margin: 0 2px; color: white" v-if="jwt && auth === 1" to="/admin">Admin</v-btn>
       <v-btn dark color="#424242" style="margin: 0 2px" v-if="jwt" @click="logout">Logout</v-btn>
 
       <!--<router-link to="/">Home</router-link>
