@@ -9,9 +9,10 @@
 https://stackoverflow.com/questions/14612695/how-to-restart-a-rails-server-on-heroku
 
 ================
-Настройка файла Procfile
+Настройка файла Procfile - нужен для работы на heroku, говорит откуда запускать node файл
+https://devcenter.heroku.com/articles/procfile
 ```blade
-web: node server.js
+web: node app.js
 web: npm start - с этой нвстройкой работал
 ```
 

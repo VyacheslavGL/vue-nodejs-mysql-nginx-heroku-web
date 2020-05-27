@@ -2,7 +2,7 @@
     <div class="hello">
         <h1>Welcome to administrator page - Admin</h1>
         <h2>{{msg}}</h2>
-        <img src="../../img/w1200.jpg" style="max-width: 768px" height="511" alt="Picture w1200"/>
+        <img src="../../img/w1200.jpg" style="max-width: 768px; margin: 0 auto" height="511" alt="Picture w1200"/>
     </div>
 </template>
 
