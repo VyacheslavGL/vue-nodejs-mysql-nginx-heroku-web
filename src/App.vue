@@ -8,12 +8,12 @@
 <!--      <router-link v-if="jwt && auth === 1" to="/admin"> Admin  | </router-link>-->
 <!--      <button v-if="jwt" @click="logout">logout</button>-->
 <!--      <v-spacer></v-spacer>-->
-      <v-btn to="/">Home</v-btn>
-      <v-btn v-if="jwt == null" to="/login">Login</v-btn>
-      <v-btn v-if="!jwt" to="/register">Register</v-btn>
-      <v-btn v-if="jwt" to="/dashboard">Dashboard</v-btn>
-      <v-btn v-if="jwt && auth === 1" to="/admin">Admin</v-btn>
-      <v-btn v-if="jwt" dark color="primary" @click="logout">Logout</v-btn>
+      <v-btn class="ma-2" color="info" to="/">Home</v-btn>
+      <v-btn class="ma-2" color="info" v-if="jwt == null" to="/login">Login</v-btn>
+      <v-btn class="ma-2" color="info" v-if="!jwt" to="/register">Register</v-btn>
+      <v-btn class="ma-2" color="info" v-if="jwt" to="/dashboard">Dashboard</v-btn>
+      <v-btn class="ma-2" color="info" v-if="jwt && auth === 1" to="/admin">Admin</v-btn>
+      <v-btn class="ma-2" v-if="jwt" dark color="info" @click="logout">Logout</v-btn>
 
       <!--<router-link to="/">Home</router-link>
       <router-link to="/login"> | Login  </router-link>
