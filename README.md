@@ -1,4 +1,20 @@
+1. npm i
+2. heroku login
+3. git init
+4. heroku create vue-node-mysql-heroku-web
+5. git add .
+6. git commit -am "zxcccc"
+7. git push heroku master
+8. Если не работает то heroku restart
+https://stackoverflow.com/questions/14612695/how-to-restart-a-rails-server-on-heroku
+
+================
+
+heroku buildpacks:search veu
+
+
 [Heroku lokal web](https://gist.github.com/hone/24b06869b4c1eca701f9)
+
 1.Необходимо залогинется
 2.Запустить npm run build
 3.Запустить heroku local web

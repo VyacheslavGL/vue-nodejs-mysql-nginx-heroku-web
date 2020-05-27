@@ -60,6 +60,7 @@
         this.jwt = null;
         // this.$router.push({name: 'HelloWorld'})
         // this.$router.push('/')
+        this.$router.push('login')
 
       }
     },
