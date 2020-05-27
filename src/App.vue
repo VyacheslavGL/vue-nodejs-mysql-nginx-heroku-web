@@ -8,7 +8,7 @@
       <router-link v-if="jwt && auth === 1" to="/admin"> Admin  | </router-link>
 <!--      <button v-if="jwt" @click="logout">logout</button>-->
 <!--      <v-spacer></v-spacer>-->
-      <v-btn v-if="jwt" @click="logout">logout 2</v-btn>
+      <v-btn v-if="jwt" @click="logout">Logout</v-btn>
 
       <!--<router-link to="/">Home</router-link>
       <router-link to="/login"> | Login  </router-link>
