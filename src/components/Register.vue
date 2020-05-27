@@ -37,8 +37,8 @@
                 </button>
             </div>
         </form>
-        <h1>Is admin != null: {{is_admin != null}}</h1>
-        <h1>Is admin: {{is_admin}}</h1>
+<!--        <h1>Is admin != null: {{is_admin != null}}</h1>-->
+<!--        <h1>Is admin: {{is_admin}}</h1>-->
     </div>
 </template>
 
