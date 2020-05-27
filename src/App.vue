@@ -1,13 +1,18 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link>
-      <router-link v-if="jwt == null" to="/login"> | Login  </router-link>
-      <router-link v-if="!jwt" to="/register"> | Register  </router-link>
-      <router-link v-if="jwt" to="/dashboard"> | Dashboard | </router-link>
-      <router-link v-if="jwt && auth === 1" to="/admin"> Admin  | </router-link>
+<!--      <router-link to="/">Home</router-link>-->
+<!--      <router-link v-if="jwt == null" to="/login"> | Login  </router-link>-->
+<!--      <router-link v-if="!jwt" to="/register"> | Register  </router-link>-->
+<!--      <router-link v-if="jwt" to="/dashboard"> | Dashboard | </router-link>-->
+<!--      <router-link v-if="jwt && auth === 1" to="/admin"> Admin  | </router-link>-->
 <!--      <button v-if="jwt" @click="logout">logout</button>-->
 <!--      <v-spacer></v-spacer>-->
+      <v-btn to="/">Home</v-btn>
+      <v-btn v-if="jwt == null" to="/login">Login</v-btn>
+      <v-btn v-if="!jwt" to="/register">Register</v-btn>
+      <v-btn v-if="jwt" to="/dashboard">Dashboard</v-btn>
+      <v-btn v-if="jwt && auth === 1" to="/admin">Admin</v-btn>
       <v-btn v-if="jwt" dark color="primary" @click="logout">Logout</v-btn>
 
       <!--<router-link to="/">Home</router-link>
