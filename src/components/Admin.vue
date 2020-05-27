@@ -17,7 +17,7 @@
         },
         computed:{
             width(){
-                switch (this.$vuetify.breakpoint.name) {
+                switch ('xs') {
                     case 'xs':return {width:'335px', margin: '0 auto'};
                     case 'sm':return {width:'400px', margin: '0 auto'};
                     case 'md':return {width:'960px', margin: '0 auto'};
@@ -30,6 +30,13 @@
 
                 }
             }
+        },
+        created() {
+            let width = document.body.clientWidth, // ширина
+            height = document.body.clientHeight; // высота
+            console.log('Ширина экрана screen.width:', screen.width);
+            console.log('Ширина экрана width :', width);
+            console.log('Высота экрана width :', height);
         }
     }
 </script>
