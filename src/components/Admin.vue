@@ -3,7 +3,7 @@
         <h1>Welcome to administrator page - Admin</h1>
         <h2>{{msg}}</h2>
         <img src="../../img/w1200.jpg" :style="width" height="511" alt="Picture w1200"/>
-        <h2>Ширина: {{$vuetify.breakpoint.name}}</h2>
+        <h2>Ширина: {{width}}</h2>
     </div>
 </template>
 
