@@ -6,9 +6,9 @@
       <router-link v-if="!jwt" to="/register"> | Register  </router-link>
       <router-link v-if="jwt" to="/dashboard"> | Dashboard | </router-link>
       <router-link v-if="jwt && auth === 1" to="/admin"> Admin  | </router-link>
-      <button v-if="jwt" @click="logout">logout</button>
-      <v-spacer></v-spacer>
-      <v-btn dark @click="logout">logout 2</v-btn>
+<!--      <button v-if="jwt" @click="logout">logout</button>-->
+<!--      <v-spacer></v-spacer>-->
+      <v-btn v-if="jwt" @click="logout">logout 2</v-btn>
 
       <!--<router-link to="/">Home</router-link>
       <router-link to="/login"> | Login  </router-link>
