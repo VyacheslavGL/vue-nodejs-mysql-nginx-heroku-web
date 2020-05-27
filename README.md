@@ -9,6 +9,11 @@
 https://stackoverflow.com/questions/14612695/how-to-restart-a-rails-server-on-heroku
 
 ================
+Настройка файла Procfile
+```blade
+web: node server.js
+web: npm start - с этой нвстройкой работал
+```
 
 heroku buildpacks:search veu
 
