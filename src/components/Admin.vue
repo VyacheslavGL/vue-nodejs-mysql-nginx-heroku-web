@@ -33,10 +33,8 @@
         },
         created() {
             let width = document.body.clientWidth, // ширина
-            // widthDiv = document.div.clientWidth, // ширина
             height = document.body.clientHeight; // высота
             console.log('Ширина экрана screen.width:', screen.width); //375
-            // console.log('Ширина экрана widthDiv:', widthDiv); //375
             console.log('Ширина экрана width :', width); //359
             console.log('Высота экрана height :', height);
 
